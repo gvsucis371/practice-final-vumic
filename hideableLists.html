@@ -6,13 +6,13 @@
       }
     </style>
   </head>
-
+  <script src='hideableList.js'></script>
 <body>
 
   <h1>States</h1>
 
-  <div class='hideableList'>
-    <p class='hl-header'>A list of states</p>
+  <div onclick = "myFunction(0)"class='hideableList'>
+    <p class='hl-header'><span id ="0">&#9654;</span> A list of states</p>
     <ul>
       <li>Alabama</li>
       <li>Alaska</li>
@@ -26,8 +26,8 @@
   </div>
 
   <h1>Counties</h1>
-  <div class='hideableList'>
-    <p class='hl-header'>A list of counties</p>
+  <div onclick = "myFunction(1)"class='hideableList'>
+    <p class='hl-header'><span id ="1">&#9654;</span> A list of counties</p>
     <ul>
       <li>Allegan</li>
       <li>Kent</li>
@@ -38,8 +38,8 @@
   </div>
 
   <h1>Ordinals</h1>
-  <div class='hideableList'>
-    <span class='hl-header'>Ordinals: </span>
+  <div onclick = "myFunction(2)"class='hideableList'>
+    <span class='hl-header'><span id ="2">&#9654;</span> Ordinals: </span>
     <ul class='il'>
       <li>First,</li>
       <li>Second,</li>
@@ -50,8 +50,8 @@
   </div>
 
   <h1>Ordered List</h1>
-  <div class='hideableList'>
-    <span class='hl-header'>Ordinals: </span>
+  <div onclick = "myFunction(3)"class='hideableList'>
+    <span class='hl-header'><span id ="3">&#9654;</span> Ordinals: </span>
     <ol>
       <li>First,</li>
       <li>Second,</li>
@@ -61,7 +61,6 @@
     </ol>
   </div>
 
-  <script src='hideableList.js'></script>
 </body>
 
 </html>
